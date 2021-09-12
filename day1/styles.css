@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(audience-1853662_1920.jpg);
+    background-position: center;
+    padding-top: 20%;
+    background-color: black;
+}
+
+.keys{
+    display: flex;
+    justify-content: space-between;
+}
+
+.keys .key{
+    width: 10%;
+    background-color: rgba(0, 0, 0, 0.336);
+    border: solid 3px black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: all 0.07s;
+}
+
+.keys .key kbd{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.keys .key span{
+    color: rgb(255, 187, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.playing{
+    transform: scale(1.1);
+    border: solid 3px rgb(255, 187, 0);
+    box-shadow: 0 0 10px rgb(255, 187, 0);
+}
